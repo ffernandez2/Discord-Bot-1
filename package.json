@@ -1,0 +1,12 @@
+{
+  "name": "greeter-bot",
+  "version": "1.0.0",
+  "description": "Injustice 2 mobile shard management",
+  //Evetually include raid notification...
+  "main": "bot.js",
+  "author": "Fernando Fernandez",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.2.1"
+  }
+}
