@@ -1,0 +1,16 @@
+# First Gitignore file w/ helo from Prof Breeden
+
+# Accidentally committed a file I shouldn't have
+$ git rm --cached auth.json
+
+# mesage on the committ 
+$ git commit -m "Start ignoring author.json"
+
+# This came up at compile time, don't know wha to do with it so...
+$ git rm --cached package-lock.json
+
+# message on commit
+$ git commit -m "Start ignoring package-lock.json"
+
+# for future reference before a committ
+#filename #is all you need for this file to exclude it from commits
