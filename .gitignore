@@ -4,6 +4,7 @@
 $ git rm --cached auth.json
 
 # mesage on the committ 
+
 $ git commit -m "Start ignoring author.json"
 
 # This came up at compile time, don't know wha to do with it so...
